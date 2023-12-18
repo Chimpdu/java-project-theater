@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\dyx\\Desktop\\programming\\programmings_lut\\assignments\\java_lut\\project\\java-json\\java-json\\java-json.jar",
+        "src/java-json.jar"
+    ]
+}
