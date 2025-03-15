@@ -1,11 +1,9 @@
 # java-project-theater
-a relatively big school java project (Everything except method "apiFetch" was written by myself, "apiFetch" is provided by lecturer)
+a project for object-oriented programming course
 ## make sure the java-json.jar file is included in "referenced library" before running the code!
-#1 This program relies on some features offered by org.json which means include java-json jar file is necessary to make it executable. It has been included in the "referenced library" and it should work normally. If it is not recognized, you may need to include that jar file manually.(you can find the jar file in "src" folder)
-   
-#2 This program includes many apis and apis are sometimes not stable. Error only occur once in a blue moon and it's malfunction is due to TMDB website.
+#1 This program relies on some features offered by org.json which means include java-json jar file is necessary to make it executable. It has been included in the "referenced library" and it should work normally. If it is not recognized, you may need to include that jar file manually.(you can find the jar file in "src" folder) 
 
-#3 Some changes have been made to the project specification in order to better simulate the real world. The changes are as follows.
+#2 Some changes have been made to the project specification in order to better simulate the real world. The changes are as follows.
 
 Change a: The two-dimensional array of Seat objects(allSeats[][]) is no longer placed in Theater class. Instead, two integer values: the number of rows and the number of columns are set in the beginning of the execution and then stored in Theater class. The two-dimentional array is now in Showtime class.
 
